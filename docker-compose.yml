@@ -75,7 +75,7 @@ node-socketio:
 db:
   image: mariadb:latest
   volumes:
-    - './config/my.cnf:/etc/mysql/conf.d/frappe.cnf'
+    - './config/my.cnf:/etc/mysql/conf.d/frappe.cnf:ro'
   environment:
     - MYSQL_ROOT_PASSWORD=asdfasdfasdf
     - MYSQL_USER=frappe
