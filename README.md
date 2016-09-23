@@ -2,7 +2,7 @@
 
 This code was originally forked from [donysukardi/docker-frappe](https://github.com/donysukardi/docker-frappe).
 
-Follow the steps below to run your own local installation of ERPNext.
+Follow the steps below to run your own local installation of [ERPNext](https://github.com/frappe/erpnext).
 
 *NOTE: Please do not consider this "production ready".*
 
@@ -15,3 +15,7 @@ Follow the steps below to run your own local installation of ERPNext.
 1. Watch the container logs: `docker-compose logs -f`.
 
 You should be able to log in to the server at `http://localhost`. The username is `Administrator` and the password is `frappe`. Follow the prompts to complete the initial setup.
+
+## Notes
+
+1. This [Docker](https://www.docker.com/) image is based on the [ianneub/frappe](https://hub.docker.com/r/ianneub/frappe/) image.
