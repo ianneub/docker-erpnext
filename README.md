@@ -4,6 +4,8 @@ This code was originally forked from [donysukardi/docker-frappe](https://github.
 
 Follow the steps below to run your own local installation of ERPNext.
 
+*NOTE: Please do not consider this "production ready".*
+
 ## Start a local version of ERPNext
 
 1. First we need to bootstrap the installation: `docker-compose run app`.
