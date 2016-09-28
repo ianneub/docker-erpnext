@@ -19,5 +19,6 @@
   "redis_socketio": "redis://{{ .Env.REDIS_SOCKETIO_URL }}",
   "root_password": "{{ .Env.ROOT_PASSWORD }}",
   "serve_default_site": true,
-  "use_ssl": {{ .Env.USE_SSL }}
+  "use_ssl": {{ .Env.USE_SSL }},
+  "developer_mode": {{ .Env.DEVELOPER_MODE }}
 }

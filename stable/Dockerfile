@@ -65,7 +65,8 @@ ENV ADMIN_PASSWORD=frappe \
     REDIS_QUEUE_URL=redis-queue \
     REDIS_SOCKETIO_URL=redis-socketio \
     ROOT_PASSWORD=root \
-    USE_SSL=false
+    USE_SSL=false \
+    DEVELOPER_MODE=false
 
 WORKDIR /home/$FRAPPE_USER/frappe-bench
 RUN bench get-app erpnext https://github.com/frappe/erpnext --branch $ERPNEXT_BRANCH

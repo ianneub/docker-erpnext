@@ -38,3 +38,4 @@ The image is configuring using environment variables. Bellow is a list of variab
 * `REDIS_SOCKETIO_URL`=`redis-socketio`
 * `ROOT_PASSWORD`=`root`
 * `USE_SSL`=`false`
+* `DEVELOPER_MODE`=`false`
