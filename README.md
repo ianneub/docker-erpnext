@@ -6,6 +6,10 @@ Follow the steps below to run your own local installation of [ERPNext](https://g
 
 *NOTE: Please do not consider this "production ready".*
 
+## Deprecation Notice
+
+This project is no longer maintained.
+
 ## Start a local version of ERPNext
 
 1. First we need to bootstrap the installation: `docker-compose run app`.
